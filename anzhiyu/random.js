@@ -1,0 +1,1 @@
+var posts=["2023/09/29/first/","2023/09/29/hello-world/","2023/09/30/其他/高级版飞行棋/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
